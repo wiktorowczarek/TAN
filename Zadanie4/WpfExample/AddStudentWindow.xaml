@@ -1,0 +1,49 @@
+﻿<Window x:Class="WpfExample.AddStudentWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfExample"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        Title="Dodaj studenta" Height="400" Width="400">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+
+        <Label Content="Imię" Grid.Row="0" Grid.Column="0" Margin="0 0 20 0" />
+        <TextBox x:Name="FirstNameTextBox" Text="{Binding Student.FirstName}" Grid.Row="0" Grid.Column="1" />
+        <Label Content="Nazwisko" Grid.Row="1" Grid.Column="0" Margin="0 0 20 0" />
+        <TextBox x:Name="LastNameTextBox" Text="{Binding Student.LastName}" Grid.Row="1" Grid.Column="1" />
+        <Label Content="Numer indeksu" Grid.Row="2" Grid.Column="0" Margin="0 0 20 0" />
+        <TextBox x:Name="indexNumerTextBox" Text="{Binding Student.IndexNumber}" Grid.Row="2" Grid.Column="1" />
+        <Label Content="Data urodzenia" Grid.Row="3" Grid.Column="0" Margin="0 0 20 0" />
+        <DatePicker x:Name="DataPickerDP" Text="{Binding Student.BirthDate}" Grid.Row="3" Grid.Column="1" />
+        <Label Content="Miasto" Grid.Row="4" Grid.Column="0" Margin="0 0 20 0" />
+        <TextBox x:Name="CityTextBox" Text="{Binding Student.City}" Grid.Row="4" Grid.Column="1" />
+        <Label Content="Status" Grid.Row="5" Grid.Column="0" Margin="0 0 20 0" />
+        <Label x:Name="StatusCheckbox" Grid.Row="5" Grid.Column="1" Margin="20 0 20 0" />
+        <CheckBox x:Name="StatusCheckBox" Grid.Row="5" Grid.Column="1" Margin="0,5,0,0" Checked="StatusCheckBox_Checked" Unchecked="StatusCheckBox_Unchecked"/>
+        <Label Content="Zdjecie" Grid.Row="6" Grid.Column="0" Margin="0 0 20 0" />
+        <Button Content="Wybierz zdjęcie" Grid.Row="6" Grid.Column="1"  Margin="0 0 0 0" Click="Photo_buttonClick" />
+        <Image Grid.Row="7" Grid.Column="1" Source="{Binding Student.PhotoPath}" Width="100" />
+
+
+        <Button Content="Ok" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Left" Padding="10" Margin="0 10 0 0" Click="OkButton_Click" />
+        <Button Content="Anuluj" Grid.Row="8" Grid.Column="1" HorizontalAlignment="Right" Padding="10" Margin="0 10 0 0" Click="AnulujButton_Click" />
+
+    </Grid>
+</Window>
