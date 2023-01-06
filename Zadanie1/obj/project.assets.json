@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wikto\\OneDrive\\Pulpit\\pjatk\\TAN\\TAN\\TAN_PD3825\\Zadanie1.csproj",
+      "projectUniqueName": "C:\\Users\\wikto\\OneDrive\\Pulpit\\pjatk\\TAN\\TAN\\Zadanie1\\Zadanie1.csproj",
       "projectName": "Zadanie1",
-      "projectPath": "C:\\Users\\wikto\\OneDrive\\Pulpit\\pjatk\\TAN\\TAN\\TAN_PD3825\\Zadanie1.csproj",
+      "projectPath": "C:\\Users\\wikto\\OneDrive\\Pulpit\\pjatk\\TAN\\TAN\\Zadanie1\\Zadanie1.csproj",
       "packagesPath": "C:\\Users\\wikto\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wikto\\OneDrive\\Pulpit\\pjatk\\TAN\\TAN\\TAN_PD3825\\obj\\",
+      "outputPath": "C:\\Users\\wikto\\OneDrive\\Pulpit\\pjatk\\TAN\\TAN\\Zadanie1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\wikto\\AppData\\Roaming\\NuGet\\NuGet.Config",
