@@ -1,0 +1,26 @@
+[
+  {
+    "StudentId": 1,
+    "FirstName": "www",
+    "LastName": "ddd",
+    "Address": "dada",
+    "IndexNumber": "123456",
+    "Email": "www@example.com"
+  },
+  {
+    "StudentId": 2,
+    "FirstName": "ziom",
+    "LastName": "what",
+    "Address": "fajno",
+    "IndexNumber": "65664",
+    "Email": "ziom@example.com"
+  },
+  {
+    "StudentId": 3,
+    "FirstName": "indyk",
+    "LastName": "pan",
+    "Address": "gdsfg",
+    "IndexNumber": "Jfsdfs",
+    "Email": "ind@example.com"
+  }
+]
