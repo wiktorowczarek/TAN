@@ -1,0 +1,14 @@
+﻿@model IEnumerable<Student>
+
+<h1>Lista studentów</h1>
+<h2>@ViewData["Login"].ToString()</h2>
+<table>
+    @foreach (var s in Model)
+    {
+        <tr>
+            <td>@s.IdStudent</td>
+            <td>@s.FirstName</td>
+            <td>@s.LastName</td>
+        </tr>
+    }
+</table>

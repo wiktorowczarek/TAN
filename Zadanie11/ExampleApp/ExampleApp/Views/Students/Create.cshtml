@@ -1,0 +1,29 @@
+﻿@model Student
+
+<h1>Stwórz studenta</h1>
+
+<hr />
+
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div class="form-group">
+                <label asp-for="FirstName"></label>
+                <input asp-for="FirstName" />
+                <span asp-validation-for="FirstName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LastName"></label>
+                <input asp-for="LastName" />
+                <span asp-validation-for="LastName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Address"></label>
+                <input asp-for="Address" />
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Dodaj" class="btn" />
+            </div>
+        </form>
+    </div>
+</div>
