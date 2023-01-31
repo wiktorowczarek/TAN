@@ -8,4 +8,7 @@ Zadanka na PJATK
 [Zadanie4](https://github.com/wiktorowczarek/TAN/tree/main/Zadanie4/WpfExample) <br>
 [Zadanie5](https://github.com/wiktorowczarek/TAN/tree/main/Zadanie5/StudentsAPI) <br>
 [Zadanie6](https://github.com/wiktorowczarek/TAN/tree/main/Zadanie6/SampleWebApp) <br>
-[Zadanie7](https://github.com/wiktorowczarek/TAN/tree/main/Zadanie7/WarehouseAPI)
+[Zadanie7](https://github.com/wiktorowczarek/TAN/tree/main/Zadanie7/WarehouseAPI) <br>
+[Zadanie8](https://github.com/wiktorowczarek/TAN/tree/main/Zadanie8/LinqCwiczenia2) <br>
+[Zadanie9](https://github.com/wiktorowczarek/TAN/tree/main/Zadanie9/WebApplication4) <br>
+[Zadanie11](https://github.com/wiktorowczarek/TAN/tree/main/Zadanie11/ExampleApp) 
